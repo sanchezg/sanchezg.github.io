@@ -37,7 +37,11 @@ h1 { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-ser
 .intro-links { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 28px; margin-top: 22px; font-size: 0.875rem; }
 .intro-links > a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; }
 .projects > .section-label { padding-bottom: 18px; border-bottom: 1px solid var(--line); margin: 0; }
-.projects-placeholder { margin: 0; padding-block: 24px; border-bottom: 1px solid var(--line); color: var(--muted); font-size: 0.875rem; }
+.project-list { margin: 0; padding: 0; list-style: none; }
+.project-list li { padding-block: 20px 24px; border-bottom: 1px solid var(--line); }
+.project-list h3 { margin: 0; font-size: 1rem; font-weight: 500; }
+.project-list h3 a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; }
+.project-list p { margin: 4px 0 0; color: var(--muted); font-size: 0.875rem; }
 .elsewhere { padding-top: 40px; }
 .elsewhere .section-label { margin-bottom: 16px; }
 .elsewhere p { font-size: 0.875rem; max-width: 58ch; margin: 0; }
